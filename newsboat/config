@@ -1,0 +1,3 @@
+include "options"
+include "bindings"
+include "colors"

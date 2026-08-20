@@ -1,0 +1,11 @@
+color title color255 color236
+color listnormal color255 default dim
+color listnormal_unread color255 default
+color listfocus color232 color224
+color listfocus_unread color232 color224
+color article color255 default
+color end-of-text-marker color255 default dim
+color info color255 color236
+
+highlight article "https?://[^ ]+" color32 default
+highlight all "---.*---" color32 default

@@ -1,0 +1,11 @@
+refresh-on-startup no
+prepopulate-query-feeds yes
+wrap-scroll yes
+confirm-mark-feed-read no
+browser "~/.config/newsboat/linkhandler.sh"
+bookmark-autopilot yes
+bookmark-cmd "bash -c 'echo $1 >> bookmarks' _"
+datetime-format "%b %d, %Y"
+max-items 256
+history-limit 0
+cleanup-on-quit yes

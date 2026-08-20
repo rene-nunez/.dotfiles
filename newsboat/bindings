@@ -1,0 +1,15 @@
+bind k everywhere up
+bind j everywhere down
+bind o everywhere open
+bind v article open-in-browser
+
+bind h articlelist prev-feed
+bind l articlelist next-feed
+bind h article prev
+bind l article next
+
+bind N everywhere prev-unread
+bind n everywhere next-unread
+
+bind y article set browser "printf '%s' %u | xclip -selection clipboard" ; open-in-browser ; set browser "~/.config/newsboat/linkhandler.sh"
+bind t articlelist toggle-article-read
