@@ -7,5 +7,5 @@ color article color255 default
 color end-of-text-marker color255 default dim
 color info color255 color236
 
-highlight article "https?://[^ ]+" color32 default
-highlight all "---.*---" color32 default
+highlight article "https?://[^ ]+" color238 default
+highlight all "---.*---" color238 default
