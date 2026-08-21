@@ -11,5 +11,5 @@ bind l article next
 bind N everywhere prev-unread
 bind n everywhere next-unread
 
-bind y article set browser "printf '%s' %u | xclip -selection clipboard" ; open-in-browser ; set browser "~/.config/newsboat/linkhandler.sh"
 bind t articlelist toggle-article-read
+bind y article set browser "printf '%s' %u | xclip -selection clipboard" ; open-in-browser ; set browser "~/.config/newsboat/linkhandler.sh"

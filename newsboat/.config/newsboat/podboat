@@ -1,0 +1,5 @@
+delete-played-files yes
+podlist-format "%4i [%p%%] %-12S %b"
+download-filename-format "%t.%e"
+download-path "~/Documents/Podcasts/"
+player "mpv --player-operation-mode=pseudo-gui -- %f"
