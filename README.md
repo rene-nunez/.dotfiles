@@ -4,7 +4,6 @@ To install, clone the repository and run `stow <package>` on the packages you wa
 
 Package notes:
 
-- **newsboat**: create a urls file at [~/.config/newsboat/urls](./newsboat/.config/newsboat/) with your RSS feeds. Install [w3m](https://git.sr.ht/~rkta/w3m) and [mpv](https://mpv.io/) to read articles and watch videos without a separate web browser.
+- **newsboat**: create a urls file at [~/.config/newsboat/urls](./newsboat/.config/newsboat/) with your RSS/Atom feeds (You can simply add one feed URL per line). Install [w3m](https://git.sr.ht/~rkta/w3m) and [mpv](https://mpv.io/) to read and watch without a separate web browser.
 
 Everything here is licensed under [The Unlicense](https://unlicense.org/).
-```
