@@ -15,5 +15,5 @@ cleanup-on-quit yes
 delete-played-files yes
 podlist-format "%4i [%-4p %%] %-12S %b"
 download-filename-format "%t.%e"
-download-path "~/Downloads/Podcasts/"
+download-path "~/Documents/Podboat"
 player "mpv --player-operation-mode=pseudo-gui -- %f"
