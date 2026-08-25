@@ -1,3 +1,4 @@
+# Newsboat
 refresh-on-startup no
 prepopulate-query-feeds yes
 wrap-scroll yes
@@ -9,3 +10,10 @@ datetime-format "%b %d, %Y"
 max-items 256
 history-limit 0
 cleanup-on-quit yes
+
+# Podboat
+delete-played-files yes
+podlist-format "%4i [%-4p %%] %-12S %b"
+download-filename-format "%t.%e"
+download-path "~/Downloads/Podcasts/"
+player "mpv --player-operation-mode=pseudo-gui -- %f"
