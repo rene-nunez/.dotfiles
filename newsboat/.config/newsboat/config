@@ -1,5 +1,3 @@
 include "options"
 include "bindings"
 include "colors"
-
-# Shared config files for Newsboat and Podboat

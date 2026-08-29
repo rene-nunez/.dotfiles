@@ -2,6 +2,8 @@ map t recolor
 map g goto
 map <C-k> zoom in
 map <C-j> zoom out
+map [fullscreen] t recolor
+map [fullscreen] g goto
 map [fullscreen] <C-k> zoom in
 map [fullscreen] <C-j> zoom out
 
