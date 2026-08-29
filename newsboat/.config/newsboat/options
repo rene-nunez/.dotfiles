@@ -1,4 +1,3 @@
-# Newsboat
 refresh-on-startup no
 prepopulate-query-feeds yes
 wrap-scroll yes
@@ -9,7 +8,6 @@ max-items 256
 history-limit 0
 cleanup-on-quit yes
 
-# Podboat
 delete-played-files yes
 podlist-format "%4i [%-4p%%] %-12S %b"
 download-filename-format "%t.%e"
