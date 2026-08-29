@@ -1,0 +1,8 @@
+map t recolor
+map g goto
+map <C-k> zoom in
+map <C-j> zoom out
+map [fullscreen] <C-k> zoom in
+map [fullscreen] <C-j> zoom out
+
+# The gg command won't work because g is mapped
