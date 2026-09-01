@@ -12,5 +12,4 @@ case "$1" in
 esac
 
 # Make executable with: chmod +x
-# Requires mpv and yt-dlp to be installed
-# I prefer text web browsers like w3m and lynx, but feel free to use firefox, surf or any web browser
+# Requires mpv, yt-dlp, and the selected browser to be installed
