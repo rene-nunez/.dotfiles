@@ -1,3 +1,4 @@
+set database sqlite
 set recolor-reverse-video true
 set selection-clipboard clipboard
 set window-title-basename true
