@@ -2,6 +2,7 @@ refresh-on-startup no
 prepopulate-query-feeds yes
 wrap-scroll yes
 confirm-mark-feed-read no
+confirm-mark-all-feeds-read no
 browser "~/.config/newsboat/linkhandler.sh"
 datetime-format "%b %d, %Y"
 max-items 256
@@ -12,4 +13,4 @@ delete-played-files yes
 podlist-format "%4i [%-4p%%] %-12S %b"
 download-filename-format "%t.%e"
 download-path "~/Podboat/"
-player "mpv --player-operation-mode=pseudo-gui -- %f"
+player "mpv"
