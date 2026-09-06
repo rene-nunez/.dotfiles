@@ -2,10 +2,14 @@ map t recolor
 map g goto
 map <C-k> zoom in
 map <C-j> zoom out
+map i jumplist forward
+map I jumplist backward
 
 map [fullscreen] t recolor
 map [fullscreen] g goto
 map [fullscreen] <C-k> zoom in
 map [fullscreen] <C-j> zoom out
+map [fullscreen] i jumplist forward
+map [fullscreen] I jumplist backward
 
 # The gg command won't work because g is mapped
