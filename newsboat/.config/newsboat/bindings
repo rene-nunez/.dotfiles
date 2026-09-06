@@ -1,18 +1,21 @@
+bind o everywhere open
 bind k everywhere up
 bind j everywhere down
-bind o everywhere open
-bind v article open-in-browser
-
-bind h articlelist prev-feed
-bind l articlelist next-feed
-bind h article prev
-bind l article next
-
 bind N everywhere prev-unread
 bind n everywhere next-unread
 
+bind t feedlist mark-feed-read
+bind T feedlist mark-all-feeds-read
+
 bind t articlelist toggle-article-read
+bind T articlelist mark-feed-read
+bind h articlelist prev-feed
+bind l articlelist next-feed
+
+bind v article open-in-browser
 bind y article set browser "printf '%s' %u | xclip -selection clipboard" ; open-in-browser ; set browser "~/.config/newsboat/linkhandler.sh"
+bind h article prev
+bind l article next
 
 bind v podboat pb-play
 bind r podboat pb-download
