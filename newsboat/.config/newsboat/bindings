@@ -19,6 +19,7 @@ bind l article next
 
 bind v podboat pb-play
 bind r podboat pb-download
+bind R podboat pb-toggle-download-all
 bind t podboat pb-mark-as-finished
 bind d podboat pb-delete
 bind p podboat pb-purge
